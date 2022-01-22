@@ -19,7 +19,7 @@ public class QuadTreeDisplay extends Applet {
         System.out.println("-----------");
         g.drawRect(10, 10, 20, 20);
     }
-    /** Draw the quadtree root on the applet
+    /** Draw the quadtree root by
      *  it subdividing the enclosing rectangle  
      */
     public void query2D(Interval2D<Integer> rect) {
