@@ -32,6 +32,9 @@ public class QuadTreeDisplay extends Applet {
     *  @param height height of rectangle
     *  
     */
+	
+	// painting is realized like query2D
+	
     private void query2D(Node h, Interval2D<Integer> rect) {
         if (h == null) return;
         Integer xmin = rect.intervalX.min();
